@@ -1,0 +1,21 @@
+<%- partial('_partial/head') %>
+<body>
+  <div id="fullpage" class="mobile-nav-<%= theme.mobile_nav %>">
+    <% if (theme.background_image){ %>
+      <div id="wrapper" style="background-image: url(<%= theme.background_image %>)" title="<%= theme.background_title ? theme.background_title : '背景图片来自网络' %>">
+    <% } else { %>
+      <div id="wrapper" title="<%= theme.background_title ? theme.background_title : '背景图片来自网络' %>">
+    <% } %>
+    
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <div id="middlecontent" title class="global-width sidebar-<%= theme.sidebar %>">
+        <section id="main"><%- body %></section>
+        <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+      </div>
+      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/after-footer') %>
+    </div>
+    <%- partial('_partial/mobile-nav') %>    
+  </div>
+</body>
+</html>

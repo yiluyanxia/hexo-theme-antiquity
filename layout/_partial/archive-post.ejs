@@ -1,0 +1,12 @@
+<article class="archive-article archive-type-<%= post.layout %>">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <%- partial('post/title', {class_name: 'archive-article-title'}) %>      
+    </header>
+    <div class="article-meta archive-article-meta">
+      <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+      <%- partial('post/category') %>
+      <%- partial('post/tag') %>
+    </div>
+  </div>
+</article>

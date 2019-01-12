@@ -1,0 +1,16 @@
+<div class="widget-box">
+  <div class="avatar-box">
+    <img class="avatar" src="<%= theme.avatar ? theme.avatar : '/images/default-avatar.jpeg' %>" title="<%= theme.avatar_title ? theme.avatar_title : '头像来自网络' %>"></img>
+    <h3 class="avatar-name">
+      <% if (theme.author){ %>
+        <%= theme.author %>
+      <% } else { %>
+        <%= config.author %>
+      <% } %>
+    </h3>
+    <p class="avatar-slogan">
+      <%= theme.slogan %>
+    </p>
+  </div>
+</div>
+

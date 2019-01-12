@@ -1,0 +1,14 @@
+<header id="header">
+  <div id="nav-toggle" class="nav-toggle"></div>
+  <div class="head-box global-width">
+    <nav class="nav-box nav-<%= theme.nav %>">
+      <% for (var i in theme.menu){ %>
+        <a class="nav-item" href="<%- url_for(theme.menu[i]) %>" title
+        <% if(theme.menu[i] === '/resume'|| theme.menu[i] === '/mood' || theme.menu[i] === 'https://github.com/yiluyanxia' || theme.menu[i] === '/atom.xml'){ %>
+          target='_blank'
+        <% } %>
+        ><%= i %></a>
+      <% } %>
+    </nav>
+  </div>
+</header>
