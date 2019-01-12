@@ -12,7 +12,7 @@ $ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
 ```
 
 ### 使用
-将根目录中的`_config.yml`文件的‘theme’修改为antiquity
+将根目录中的“_config.yml”文件的“theme”修改为antiquity
 
 ### 更新
 
