@@ -8,7 +8,7 @@
 ### 安装
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/yiluyanxia/hexo-theme-antiquity.git
 ```
 
 ### 使用
