@@ -44,7 +44,7 @@ slogan: 特别耐撕的小前端，资深的打酱油攻城狮。
 avatar_title: 图片来自网络
 
 # Article code panel: cloud doorframe mac
-highlightPanel: doorframe
+highlightPanel: cloud
 
 #Gitment
 gitment:
@@ -58,7 +58,7 @@ google_analytics:
 gauges_analytics:
 google_site_verification: 
 baidu_site_verification: 
-favicon: /images/default-avatar.jpeg
+favicon: /images/default-avatar.webp
 twitter:
 google_plus:
 fb_admins:
