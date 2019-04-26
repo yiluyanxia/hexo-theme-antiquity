@@ -1,0 +1,9 @@
+  <div class="widget-box">
+    <h3 class="widget-title">友链</h3>
+    <div class="widget">
+      <% for (var i in theme.blogroll){ %>
+        <a style="display: block;" href="<%- url_for(theme.blogroll[i]) %>" title target='_blank'
+        ><%= i %></a>
+      <% } %>
+    </div>
+  </div>
