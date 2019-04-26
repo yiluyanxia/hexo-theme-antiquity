@@ -41,7 +41,7 @@
   left: 4px;
   width: 46px;
   height: 19px;
-  background-image: url('./images/icons/css_cloud.png')
+  background-image: url('../images/icons/css_cloud.png')
 }
 .article-content-mac .highlight-box::after{
   content: " ";
