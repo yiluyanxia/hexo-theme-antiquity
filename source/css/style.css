@@ -317,19 +317,8 @@ html, body, #fullpage{
   height: 50px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .3)
 }
-#header::after{
-  content: "阅读有风险 参考需谨慎";
-  display: block;
-  text-align: center;
-  line-height: 30px;
-  color: #666;
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-  right: 0; 
-}
+
 .head-box {
-  
 }
 .nav-box {
   display: flex;
