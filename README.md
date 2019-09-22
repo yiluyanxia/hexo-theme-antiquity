@@ -46,7 +46,7 @@ widgets:
 background_title: 图片来自网络
 
 # favicon
-favicon: /images/default-avatar.webp
+favicon: /images/default-avatar.jpg
 
 #Userinfo
 author: 一路烟霞
@@ -88,8 +88,6 @@ blogroll:
 
 - **google_analytics** - Google Analytics ID
 - **favicon** - 网站图标路径
-- **twitter** - Twiiter ID
-- **google_plus** - Google+ ID
 
 ## 特性
 

@@ -39,7 +39,7 @@ show_count: false
 background_title: 图片来自网络
 
 # favicon
-favicon: /images/default-avatar.webp
+favicon: /images/default-avatar.jpg
 
 #Userinfo
 author: 一路烟霞

@@ -176,17 +176,6 @@ html, body, #fullpage{
   height: 100%;
 }
 
-#loaderbox {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 999999;
-  background-color: #FAF3E1;
-}
 .loader {
   position: absolute;
   top: 50%;
@@ -276,7 +265,7 @@ html, body, #fullpage{
   /* display: none; */
 }
 #wrapper {
-  background-image: url('../images/bg.webp');
+  background-image: url('../images/bg.jpg');
   background-color: #C7C9EA;
   background-repeat: no-repeat;
   background-attachment: fixed;
