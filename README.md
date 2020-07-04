@@ -1,7 +1,7 @@
 # Antiquity
 
 一个有点古风的Hexo主题，来自一个不会设计不会配色的前端渣渣。
-- [预览](https://yiluyanxia.site)
+- [预览](https://yiluyanxia.github.io/)
 
 ## 安装
 
