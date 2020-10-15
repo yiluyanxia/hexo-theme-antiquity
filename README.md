@@ -11,7 +11,12 @@
 $ git clone https://github.com/yiluyanxia/hexo-theme-antiquity.git
 ```
 
+~~~bash
+$ npm install hexo-generator-search --save
+~~~
+
 ### 使用
+
 将根目录中的config.yml文件中的theme修改为antiquity
 
 ### 更新
@@ -74,6 +79,10 @@ baidu_site_verification:
 # 友情链接
 blogroll:
   一路眼瞎: https://yiluyanxia.github.io/
+
+# 开启搜索
+local_search:
+  enable: true
 ```
 - **menu** -导航菜单
 - **rss** - RSS 链接
