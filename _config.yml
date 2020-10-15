@@ -66,3 +66,6 @@ baidu_site_verification:
 # 友情链接
 blogroll:
   一路眼瞎: https://yiluyanxia.github.io/
+
+local_search:
+  enable: true
